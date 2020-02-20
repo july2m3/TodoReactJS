@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+div.content {
+  min-width: 400px;
+  border: solid 2px black;
+  margin-bottom: 30px;
+}
+
+.message {
+  height: 30px;
+  color: green;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 20px;
+}
+.sub-heading {
+  border-bottom: solid 2px green;
+  padding: 20px;
+}
+
+.todo-list {
+  min-height: 400px;
+}
+
+.todo-list ul {
+  /*prevents todo-list from moving upon item instertion */
+  margin-top: 20px;
+}
+
+.todo-list ul li {
+  margin: 20px;
+  list-style-type: none;
+}
+
+.fa-circle {
+  margin-right: 5px;
+}
+
+.fa-skull {
+  float: right;
+  /* display: none; */
+}
+
+.add-todo {
+  width: 100%;
+  margin: 0 auto;
+}
