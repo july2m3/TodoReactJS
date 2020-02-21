@@ -16,7 +16,7 @@ body {
 }
 
 div.content {
-  min-width: 400px;
+  min-width: 500px;
   border: solid 2px black;
   margin-bottom: 30px;
 }
